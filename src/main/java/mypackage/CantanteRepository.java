@@ -85,7 +85,7 @@ public class CantanteRepository {
         //System.out.println("La size di cantanti è: "+cantanti.size());
         Cantante c = findById(cantanteId);
         //if (c == null)
-        //    return new Canzone(12, 1, "madonna troya", 1233);
+        //    return new Canzone(12, 1, "ciaociao", 1233);
         
         //System.out.println(c);
         Canzone res = findByIdCanzone(canzoneId, cantanteId);
